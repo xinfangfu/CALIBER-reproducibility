@@ -1,0 +1,29 @@
+{
+  "source_records": "data/XJTU/xjtu_lpo_records.pkl",
+  "source_sha256": "1d1b54651083db19c07334fe0832e42945e73f0c7a9b33badcc9f0b53c939dde",
+  "builder": "scripts/DATASETS/build_xjtu_lpo.py",
+  "builder_sha256": "8b7449ed0906e46a263f3f2d92c310f77bde11a1a2b2cf00cc7778cd50ff6a42",
+  "split_seed": 2026,
+  "logic": "sort protocol labels, random.Random(2026).shuffle, assign whole groups; test=round(0.25*n), validation=round(0.15*n)",
+  "cell_counts": {
+    "train": 24,
+    "val": 8,
+    "test": 23
+  },
+  "protocols": {
+    "train": [
+      "Batch-1_2C",
+      "Batch-3_R2.5",
+      "Batch-6_Sim_satellite"
+    ],
+    "val": [
+      "Batch-4_R3"
+    ],
+    "test": [
+      "Batch-2_3C",
+      "Batch-5_RW"
+    ]
+  },
+  "protocol_overlap": false,
+  "builder_executed_during_stage_2b12": false
+}

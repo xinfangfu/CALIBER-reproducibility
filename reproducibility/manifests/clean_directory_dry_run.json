@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-07-16T09:32:16+08:00",
+  "input": "standalone copy of reproducibility/ only",
+  "repository_outside_package_available_to_scripts": false,
+  "checkpoint_files_in_package": 0,
+  "training_or_inference": false,
+  "standard_library_table_rebuild": "PASS",
+  "figure_rebuild_with_archived_environment": "PASS",
+  "reconstructed": {
+    "lean_harness_rows": 40,
+    "lean_per_seed_groups_recomputed": 33,
+    "five_arm_rows": 25,
+    "official_ag_rows": 5,
+    "paired_input_rows": 2160,
+    "paired_comparison_groups_recomputed": 25,
+    "gate_threshold_rows": 45,
+    "grouped_conformal_rows": 5,
+    "batterylife_rows": 4
+  },
+  "output_hashes": {
+    "rebuild_report_json": "7c9adb175a411cd42cc3c67186aea8d7fbece7e2099b1dd669cfd8344055d8ba",
+    "five_arm_trajectory_pdf": "3acba48dd70192f2112bdc27992b3a51e6efaf6d82d9794f331a51d0482d3fd1",
+    "paired_effects_pdf": "64a2d3d0a354209b4679df41d21f867ee31153a8edcd66a9f3aac198e81b4134"
+  }
+}

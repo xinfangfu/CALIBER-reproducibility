@@ -1,0 +1,5 @@
+domain,n_folds,caliber_mean_mape_pct,caliber_std,repair_mean_mape_pct,repair_std,source
+Li-ion,3,2.472,0.148,not_executed,not_executed,docs/PAPER_DRAFT_V2/battery_journal_article_template.tex; app:batterylife
+CALB,4,3.218,2.666,2.513,1.45,BatteryMFormer_Reproduce/reports/paramknee_summary/PARAMKNEE_TABLE_STATUS.md
+Na-ion,12,1.616,0.385,not_executed,not_executed,BatteryMFormer_Reproduce/reports/paramknee_summary/PARAMKNEE_TABLE_STATUS.md
+Zn-ion,3,8.084,0.728,not_executed,not_executed,BatteryMFormer_Reproduce/reports/paramknee_summary/PARAMKNEE_TABLE_STATUS.md

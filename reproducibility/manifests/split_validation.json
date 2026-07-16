@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "internal_split_validation": [
+    {
+      "dataset": "mit",
+      "source_file": "data/MIT/mit_cycle_records_noleak.pkl",
+      "source_sha256": "b186d5cde964b92bedc87268ced080d9afabb3959d7e8f2bfb13cb5c0baebbd9",
+      "cells": 139,
+      "train_cells": 111,
+      "validation_cells": 14,
+      "test_cells": 14,
+      "test_protocols": "not_applicable",
+      "protocol_overlap": "not_applicable"
+    },
+    {
+      "dataset": "aging_matrix",
+      "source_file": "data/AGING_MATRIX/aging_matrix_raw_cycle_records_stride20_noleak.pkl",
+      "source_sha256": "ab36427c6d9611c6b504ff600663f3dd502bc82d0cfa1791d93e561819416cae",
+      "cells": 31,
+      "train_cells": 22,
+      "validation_cells": 4,
+      "test_cells": 5,
+      "test_protocols": "not_applicable",
+      "protocol_overlap": "not_applicable"
+    },
+    {
+      "dataset": "dynamic_cycling",
+      "source_file": "data/DYNAMIC_CYCLING/dynamic_cycling_long_coarse_family_stratified_noleak.pkl",
+      "source_sha256": "2f94794804c913653b4c54d338b51f706fc9b7e15d2eb99a955434f249bfc9b4",
+      "cells": 92,
+      "train_cells": 60,
+      "validation_cells": 13,
+      "test_cells": 19,
+      "test_protocols": "not_applicable",
+      "protocol_overlap": "not_applicable"
+    },
+    {
+      "dataset": "xjtu_lpo",
+      "source_file": "data/XJTU/xjtu_lpo_records.pkl",
+      "source_sha256": "1d1b54651083db19c07334fe0832e42945e73f0c7a9b33badcc9f0b53c939dde",
+      "cells": 55,
+      "train_cells": 24,
+      "validation_cells": 8,
+      "test_cells": 23,
+      "test_protocols": [
+        "Batch-2_3C",
+        "Batch-5_RW"
+      ],
+      "protocol_overlap": false
+    },
+    {
+      "dataset": "isu_ilcc_lpo",
+      "source_file": "data/ISU_ILCC/isu_ilcc_lpo_records.pkl",
+      "source_sha256": "cedeb1bff5144d54fd967d905a8f4771c08a927082a2308696300ef6c8e6c0d9",
+      "cells": 240,
+      "train_cells": 157,
+      "validation_cells": 36,
+      "test_cells": 47,
+      "test_protocols": [
+        "G10",
+        "G13",
+        "G14",
+        "G37",
+        "G39",
+        "G42",
+        "G43",
+        "G49",
+        "G50",
+        "G56",
+        "G57",
+        "G60"
+      ],
+      "protocol_overlap": false
+    }
+  ],
+  "batterylife_split_inventory": [
+    {
+      "domain": "Li-ion",
+      "fold_id": "Liion_split_seed2021",
+      "rows": 979,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/pure_ood/Liion_split_seed2021.json",
+      "source_sha256": "9743d61a4c289de9e5b880dda5e3d660f1b826df20065d2c6e10af6b48f5e64a"
+    },
+    {
+      "domain": "Li-ion",
+      "fold_id": "Liion_split_seed2024",
+      "rows": 979,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/pure_ood/Liion_split_seed2024.json",
+      "source_sha256": "cafd92498f2126e0b12bb61817b23daa3c5beb94b86ab873429983ab13cdf491"
+    },
+    {
+      "domain": "Li-ion",
+      "fold_id": "Liion_split_seed42",
+      "rows": 979,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/pure_ood/Liion_split_seed42.json",
+      "source_sha256": "2ecd6d4116b92fc7e512f3fb1ddda73900781cdd6f129eb439b3463ddcd9f460"
+    },
+    {
+      "domain": "CALB",
+      "fold_id": "CALB_loao_cond396_seed2021",
+      "rows": 27,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/CALB_loao_cond396_seed2021.json",
+      "source_sha256": "4a10a90bcdeabac80cdbd65db3f180046b493454707a38ec80d66e3b78e9a0f6"
+    },
+    {
+      "domain": "CALB",
+      "fold_id": "CALB_loao_cond397_seed2021",
+      "rows": 27,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/CALB_loao_cond397_seed2021.json",
+      "source_sha256": "ef66d6d6fd1ea6732b231b1d42222be4bcf75df2138b125558af67799381bbce"
+    },
+    {
+      "domain": "CALB",
+      "fold_id": "CALB_loao_cond398_seed2021",
+      "rows": 27,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/CALB_loao_cond398_seed2021.json",
+      "source_sha256": "a8e775389cee3af295bbe47c68f0c2768c189acaf430f51cf4ba8a44b417bd28"
+    },
+    {
+      "domain": "CALB",
+      "fold_id": "CALB_loao_cond399_seed2021",
+      "rows": 27,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/CALB_loao_cond399_seed2021.json",
+      "source_sha256": "f15926971ca8f8cf96397ce69ab008140a25fca22920525f5647ea84560c0de7"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond400_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond400_seed2021.json",
+      "source_sha256": "c4b8465e9651fcbd451ee9047bd85cf42e145fc73d93e17ca5d78eedd29e379c"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond401_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond401_seed2021.json",
+      "source_sha256": "831c4b20ac5ee62b3f918f083a049f76cf33d0d013e967b25da3efa54f68d55b"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond402_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond402_seed2021.json",
+      "source_sha256": "0ff7a65917ab59efb3cfea5950e2991d46462ef382b489d817e209f145b46614"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond403_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond403_seed2021.json",
+      "source_sha256": "807fb1864b847b70dbf6a968c8c6c0e6e9bd0326268cc24f9727946f710ba9c4"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond404_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond404_seed2021.json",
+      "source_sha256": "79e6c81298c6a9566e79bd72f795693445702f18332956a038a2df8d5c33c1e1"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond405_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond405_seed2021.json",
+      "source_sha256": "3ba7cceda3b8ebef95a31420cfd188cee98593a7f6b7746c5f474f5a3e2f0c70"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond406_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond406_seed2021.json",
+      "source_sha256": "4498dd9ca850cfa5ebfd0325079a2ac5da41f5c75b5232a19a540a4f36aac0a4"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond407_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond407_seed2021.json",
+      "source_sha256": "0695e5bc374e2ec7f5cf4edc7a9ea92f6edbca39f1809bd0ed3aa4a2ad911e9a"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond408_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond408_seed2021.json",
+      "source_sha256": "916e5c4197d72eef3f3b4f69bf9906a0477f806b16809c8be44ce8f6c4d0fc79"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond409_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond409_seed2021.json",
+      "source_sha256": "073b268ebb013ed4fa453fb069ea8d58e7fe13ce6228db4c65cacf1cfa8b43b1"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond410_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond410_seed2021.json",
+      "source_sha256": "c7d9fceaa57e8ba6ae82158950b639fe4b6680d8f1afec99c35dad51f542bcda"
+    },
+    {
+      "domain": "Na-ion",
+      "fold_id": "NA-ion_loao_cond411_seed2021",
+      "rows": 31,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/loao/NA-ion_loao_cond411_seed2021.json",
+      "source_sha256": "35287e147e22eedad209d6c09c82cc74ebd7dac47797e5c5a0a3ad992e8ebdb8"
+    },
+    {
+      "domain": "Zn-ion",
+      "fold_id": "ZNcoin_split_seed2021",
+      "rows": 95,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/pure_ood/ZNcoin_split_seed2021.json",
+      "source_sha256": "e6db2b79fb6145077298fa1e60c6f02027f4f2e7b8a269a5743fddf7222db380"
+    },
+    {
+      "domain": "Zn-ion",
+      "fold_id": "ZNcoin_split_seed2024",
+      "rows": 95,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/pure_ood/ZNcoin_split_seed2024.json",
+      "source_sha256": "c6bad7493fa631e64f81a096ccfd901fdcded58f38714a1599b8e8204fa43bd3"
+    },
+    {
+      "domain": "Zn-ion",
+      "fold_id": "ZNcoin_split_seed42",
+      "rows": 95,
+      "source_file": "BatteryMFormer_Reproduce/code/data_provider/split_json/pure_ood/ZNcoin_split_seed42.json",
+      "source_sha256": "5930fc909ac92a471ef2e4eb6b1136719ddd37de58c90caeb51437463cd48105"
+    }
+  ],
+  "scientific_mutation": false,
+  "training_or_inference": false
+}

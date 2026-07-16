@@ -1,0 +1,36 @@
+{
+  "aging_matrix": {
+    "ours_paramknee": [
+      0.0034098850795999166,
+      0.00027741413798904914,
+      0.001
+    ],
+    "patchtst": [
+      0.09576064397891361,
+      0.0026935118178746985,
+      0.0003
+    ],
+    "cptransformer": [
+      "not_applicable",
+      "not_applicable",
+      0.0001
+    ]
+  },
+  "dynamic_cycling": {
+    "ours_paramknee": [
+      0.004926654295750747,
+      0.0001450224800882275,
+      0.003
+    ],
+    "patchtst": [
+      0.01729509426411568,
+      0.006157868892675587,
+      0.001
+    ],
+    "cptransformer": [
+      "not_applicable",
+      "not_applicable",
+      0.0001
+    ]
+  }
+}

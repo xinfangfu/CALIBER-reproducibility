@@ -1,0 +1,8 @@
+reported_object,packaged_source,rebuild_mode
+lean harness system table,summaries/main_tables/lean_harness_table.csv,per-seed means and population SD recomputed where per-seed JSON exists
+official Ag reference,summaries/main_tables/official_ag_reference.csv,validated frozen summary
+same-lineage five-arm table,summaries/main_tables/five_arm_table.csv,validated frozen summary
+paired effects,summaries/figures/paired_per_cell_effects.csv,mean and direction rates recomputed; bootstrap intervals retained as frozen descriptive outputs
+gate-threshold sensitivity,summaries/main_tables/gate_threshold_table.csv,validated 45-row frozen metadata audit
+grouped conformal audit,summaries/main_tables/grouped_conformal_table.csv,validated frozen empirical summary
+BatteryLife four-domain summary,summaries/main_tables/batterylife_summary.csv,validated manuscript-facing frozen summary
