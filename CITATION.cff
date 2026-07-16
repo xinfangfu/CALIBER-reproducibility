@@ -5,6 +5,7 @@ version: 1.0.0
 date-released: 2026-07-16
 type: software
 license: MIT
+doi: "10.5281/zenodo.21387405"
 
 authors:
   - family-names: "Fuxinfang"

@@ -6,8 +6,13 @@
   https://github.com/xinfangfu/CALIBER-reproducibility
 - Repository license: MIT License for first-party code and documentation.
 - Zenodo GitHub integration: enabled.
-- Planned first archived release: `v1.0.0`.
-- Version DOI: pending creation of the `v1.0.0` GitHub Release.
+- Archived release: `v1.0.0`.
+- GitHub Release:
+  https://github.com/xinfangfu/CALIBER-reproducibility/releases/tag/v1.0.0
+- Version DOI:
+  https://doi.org/10.5281/zenodo.21387405
+- Concept DOI for all versions:
+  https://doi.org/10.5281/zenodo.21387404
 
 ## Evidence boundary
 

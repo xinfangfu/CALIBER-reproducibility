@@ -54,8 +54,11 @@ directly from its 22 official split JSON files (3 Li-ion, 4 CALB, 12 Na-ion, 3 Z
 
 This repository is publicly available at
 `https://github.com/xinfangfu/CALIBER-reproducibility` under the MIT License
-for first-party code and documentation. Zenodo integration is enabled, and
-the version DOI will be added after the `v1.0.0` GitHub Release is archived.
+for first-party code and documentation. Release `v1.0.0` is archived on
+Zenodo with version DOI
+[`10.5281/zenodo.21387405`](https://doi.org/10.5281/zenodo.21387405).
+The concept DOI for all versions is
+[`10.5281/zenodo.21387404`](https://doi.org/10.5281/zenodo.21387404).
 
 The frozen `reproducibility/` directory remains unchanged so that its
 original Stage 2B.12 checksum manifest can still be verified. See
