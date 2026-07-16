@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the archived release."
+title: "CALIBER Frozen-Evidence Reproducibility Package"
+version: 1.0.0
+date-released: 2026-07-16
+type: software
+license: MIT
+
+authors:
+  - family-names: "Fuxinfang"
+    affiliation: "Lanzhou University"
+
+repository-code: "https://github.com/xinfangfu/CALIBER-reproducibility"
+url: "https://github.com/xinfangfu/CALIBER-reproducibility"
+
+abstract: >-
+  A portable frozen-evidence audit package accompanying a study of
+  auxiliary-information deployment in battery degradation trajectory
+  forecasting. The package contains split manifests, frozen summaries,
+  checksums, environment records, and read-only reconstruction scripts.
+  It does not redistribute raw third-party battery data, external
+  checkpoints, or private materials.
+
+keywords:
+  - lithium-ion batteries
+  - battery degradation trajectory forecasting
+  - auxiliary information
+  - protocol shift
+  - negative transfer
+  - reproducibility
+  - frozen evidence
